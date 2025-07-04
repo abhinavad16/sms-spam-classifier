@@ -4,7 +4,9 @@ import pickle
 import string
 from nltk.corpus import stopwords
 import nltk
-nltk.download()
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
 from nltk.tokenize import word_tokenize
 from nltk.stem.porter import PorterStemmer
 ps=PorterStemmer()
