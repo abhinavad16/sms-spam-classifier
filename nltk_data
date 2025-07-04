@@ -1,0 +1,6 @@
+my-project/
+├── app.py
+├── nltk_data/
+│   └── tokenizers/
+│       └── punkt/
+├── requirements.txt
