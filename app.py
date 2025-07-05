@@ -1,6 +1,6 @@
 import streamlit as st
 import nltk
-nltk.download('punkt')
+nltk.download('all')
 import pickle
 import string
 from nltk.corpus import stopwords
